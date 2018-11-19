@@ -1,0 +1,36 @@
+{x = 5 + 3 + 7; y = x - 1;}
+z = y + x;
+{;5;{;};}
+
+if (x==y) {z = 6;} else {z = 1000;}
+
+a = 4;
+
+while (a > 0) {a = a - 1; z = z / 2;}
+
+function myfunc (a) {
+	y = 4 + 5;
+	dgf = 3;
+	4+2;
+	return a * 5;
+}
+
+function myfunc2 (a) {
+if (a>0) {c=myfunc(a*2);} else {c=myfunc(a+5);}
+return c;
+}
+
+ww = (4+5);
+
+dd = myfunc(myfunc(ww));
+
+ddd = myfunc2(3);
+
+a = a + 1;
+
+cc = z * 2;
+;
+
+
+
+
