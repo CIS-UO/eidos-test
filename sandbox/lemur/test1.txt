@@ -1,0 +1,10 @@
+counter = 5;
+factorial = 1;
+
+while (counter > 0)
+{ 
+   factorial = factorial * counter;
+   counter = counter - 1; 
+}
+a = factorial;
+b = 10;

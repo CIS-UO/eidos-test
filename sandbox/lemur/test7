@@ -1,0 +1,26 @@
+function test_prime(a){
+	prime = T;
+	if (a<2){
+		prime=F;
+	}else{
+		for (i in 2:(a/2){
+			if (a % i ==0){
+				prime=F;
+				break;
+			}
+		}
+	}
+	if (prime){
+		print(a + " is a prime number");
+	}else{
+		print(a + " is not a prime number");
+	}
+}
+
+test_prime(2);
+test_prime(3);
+test_prime(4);
+test_prime(5);
+test_prime(6);
+test_prime(7);
+test_prime(8);

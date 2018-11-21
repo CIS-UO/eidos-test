@@ -1,0 +1,34 @@
+a = 3;
+b = 7;
+c = 8;
+d=9;
+e = 0;
+add = a + c;
+sub   = d -a; 
+mult = a * b;
+mod = 7%10;
+div = d/a;
+expr = add * sub /div;
+if (a>b) {a = a + 1;} else {a = a*2;}
+if (a<b) {b = b + 1;} else {b = b+2;}
+while(b>a) {a = a+1;}
+
+function test (a){
+    a = a +4;
+    return a*2;
+}
+ret = test(4);
+function fact(a){
+    w = a;
+    u = 1 ;
+    while(w>1){
+        u = u * w;
+        w = w - 1;
+        
+    }
+return u;
+}
+recur = fact (5);
+b = b+1;
+tertiary = (a>b) ? (a+b) else (a-b); 
+;
