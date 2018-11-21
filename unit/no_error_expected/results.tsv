@@ -22,103 +22,275 @@ symbol_table003.e	String	"foo"
 symbol_table006.e	Int	3
 symbol_table007.e	Float	3.1
 symbol_table008.e	String	"foo"
+symbol_table011.e	Int_vector	{1, 2, 3, 4, 5}
+symbol_table012.e	Int_vector	{2, 3, 4, 5, 6}
+symbol_table013.e	Int_vector	{2, 3, 4, 5, 6}
+symbol_table014.e	Int_vector	{2, 3, 4, 5, 6}
+symbol_table015.e	Int_vector	{2, 3, 4, 5, 6}
+symbol_table016.e	Int_vector	{1, 2, 3, 4, 5}
+symbol_table017.e	Int_vector	{2, 4, 6, 8, 10}
+symbol_table018.e	Int_vector	{1, 2, 3, 4, 5}
+symbol_table019.e	Int_vector	{1, 0, 3, 4, 5}
+symbol_table020.e	Int_vector	{1, 2, 3, 4, 5}
+symbol_table021.e	Int_vector	{1, 2, 3, 4, 5}
+symbol_table022.e	Int_vector	{1, 0, 3, 4, 5}
+symbol_table023.e	Int_vector	{1, 3, 3, 4, 5}
 dispatch001.e	Int	10
 dispatch004.e	Int	10
 dispatch009.e	Int	2
 dispatch012.e	Int	2
 dispatch016.e	Int	2
+dispatch017.e	Int_vector	{1, 2, 3}
+dispatch018.e	Int_vector	{1, 2, 3}
+dispatch019.e	Int_vector	{1, 2, 3}
+dispatch020.e	Int_vector	{1, 2, 3}
+dispatch024.e	Int_vector	{1, 2, 3}
 dispatch029.e	Int	2
+dispatch030.e	Int_vector	{1, 2, 3}
 dispatch035.e	Int	10
 dispatch036.e	Int	10
 vectors_and_singletons013.e	Int	2
+vectors_and_singletons014.e	Int_vector	{2, 3}
 vectors_and_singletons016.e	Int	8
+vectors_and_singletons017.e	Int_vector	{8, 27}
 vectors_and_singletons019.e	Int	3
+vectors_and_singletons020.e	Int_vector	{3, 4}
 vectors_and_singletons022.e	Int	27
+vectors_and_singletons023.e	Int_vector	{27, 64}
 vectors_and_singletons025.e	Int	4
+vectors_and_singletons026.e	Int_vector	{4, 9}
 vectors_and_singletons028.e	Int	64
+vectors_and_singletons029.e	Int_vector	{64, 729}
 operator_+004.e	String	"NULLfoo"
 operator_+010.e	String	"fooNULL"
 operator_+014.e	Int	2
+operator_+016.e	Int_vector	{10, 11, 12}
+operator_+017.e	Int_vector	{10, 11, 12}
+operator_+018.e	Int_vector	{15, 15, 15}
 operator_+020.e	Float	2
 operator_+021.e	Float	2
 operator_+022.e	Float	0
+operator_+023.e	Float_vector	{10, 11, 12}
+operator_+024.e	Float_vector	{10, 11, 12}
+operator_+025.e	Float_vector	{10, 11, 12}
+operator_+026.e	Float_vector	{15, 15, 15}
 operator_+028.e	String	"foo5"
 operator_+029.e	String	"foo5"
 operator_+030.e	String	"foo5.1"
 operator_+031.e	String	"5foo"
 operator_+032.e	String	"5foo"
 operator_+033.e	String	"5.1foo"
+operator_+034.e	String_vector	{"foo1", "foo2", "foo3"}
+operator_+035.e	String_vector	{"1foo", "2foo", "3foo"}
 operator_+036.e	String	"foobar"
+operator_+037.e	String_vector	{"foobar", "foobaz"}
+operator_+038.e	String_vector	{"barfoo", "bazfoo"}
+operator_+039.e	String_vector	{"barfoo", "bazbiz"}
+operator_+040.e	String_vector	{"barT", "bazT"}
+operator_+041.e	String_vector	{"Fbar", "Fbaz"}
 operator_+045.e	Int	5
 operator_+046.e	Float	5
 operator_+049.e	Int	12
 operator_+050.e	Int	5000000000000000000LL
 operator_−015.e	Int	2
+operator_−016.e	Int_vector	{-10, -9, -8}
+operator_−017.e	Int_vector	{10, 9, 8}
+operator_−018.e	Int_vector	{15, 13, 11}
 operator_−020.e	Float	0
 operator_−021.e	Float	0
 operator_−022.e	Float	2
+operator_−023.e	Float_vector	{-10, -9, -8}
+operator_−024.e	Float_vector	{10, 9, 8}
+operator_−025.e	Float_vector	{10, 9, 8}
+operator_−026.e	Float_vector	{15, 13, 11}
 operator_−032.e	Int	-5
 operator_−033.e	Float	-5
+operator_−034.e	Int_vector	{-5, 6}
+operator_−035.e	Float_vector	{-5, 6}
 operator_−038.e	Int	-6
 operator_−039.e	Int	INT64_MAX
 operator_−040.e	Int	INT64_MIN
 operator_−041.e	Int	-5000000000000000000LL
 operator_*015.e	Int	-1
+operator_*016.e	Int_vector	{0, 10, 20}
+operator_*017.e	Int_vector	{0, 10, 20}
+operator_*018.e	Int_vector	{0, 14, 26}
 operator_*020.e	Float	1
 operator_*021.e	Float	1
 operator_*022.e	Float	-1
+operator_*023.e	Float_vector	{0, 10, 20}
+operator_*024.e	Float_vector	{0, 10, 20}
+operator_*025.e	Float_vector	{0, 14, 26}
 operator_*035.e	Int	60
 operator_*036.e	Int	5000000000000000000LL
 operator_or014.e	Float	1
 operator_or015.e	Float	-1
+operator_or016.e	Float_vector	{0, 0.1, 0.2}
 operator_or018.e	Float	1
 operator_or019.e	Float	1
 operator_or020.e	Float	-1
+operator_or021.e	Float_vector	{0, 0.1, 0.2}
+operator_or022.e	Float_vector	{std::numeric_limits<double>::infinity(), 10, 5}
+operator_or023.e	Float_vector	{std::numeric_limits<double>::infinity(), 10, 5}
+operator_or024.e	Float_vector	{std::numeric_limits<double>::infinity(), 14, 6.5}
 operator_or034.e	Float	0.15
 operator_%014.e	Float	0
 operator_%015.e	Float	0
+operator_%016.e	Float_vector	{0, 1, 2}
 operator_%018.e	Float	0
 operator_%019.e	Float	0
 operator_%020.e	Float	0
+operator_%021.e	Float_vector	{0, 1, 2}
+operator_%022.e	Float_vector	{std::numeric_limits<double>::quiet_NaN(), 0, 0, 1, 2}
+operator_%023.e	Float_vector	{std::numeric_limits<double>::quiet_NaN(), 0, 0, 1, 2}
+operator_%024.e	Float_vector	{std::numeric_limits<double>::quiet_NaN(), 0, 1}
 operator_%034.e	Float	3
+operator_[]001.e	Int_vector	{1, 2, 3, 4, 5}
+operator_[]004.e	Int_vector	{1, 2, 3, 4, 5}
 operator_[]006.e	Int	3
+operator_[]007.e	Int_vector	{3, 4}
+operator_[]008.e	Int_vector	{1, 3, 5}
+operator_[]009.e	Int_vector	{1, 2, 3, 4, 5}
 operator_[]011.e	Int	3
+operator_[]012.e	Int_vector	{3, 4}
+operator_[]013.e	Int_vector	{1, 3, 5}
+operator_[]014.e	Int_vector	{1, 2, 3, 4, 5}
+operator_[]020.e	Int_vector	{1, 3, 5}
+operator_[]021.e	Int_vector	{1, 2, 3, 4, 5}
+operator_[]024.e	Float_vector	{1.0, 3.0, 5.0}
+operator_[]025.e	String_vector	{"foo", "foobaz", "xyzzy"}
+operator_[]030.e	Int_vector	{3, 4}
+operator_[]032.e	Int_vector	{3, 4}
+operator_[]034.e	Float_vector	{3.0, 4.0}
+operator_[]036.e	Float_vector	{3.0, 4.0}
+operator_[]038.e	String_vector	{"foobaz", "baz"}
+operator_[]040.e	String_vector	{"foobaz", "baz"}
+operator_[]042.e	Int_vector	{3, 4}
+operator_[]044.e	Int_vector	{3, 4}
 operator_[]046.e	Int	5
 operator_[]049.e	Int	5
 operator_[]053.e	Int	5
 operator_=_with_[]003.e	Int	5
+operator_=_with_[]004.e	Int_vector	{1, 2, 3, 4, 5}
+operator_=_with_[]005.e	Int_vector	{10, 2, 10, 4, 10}
+operator_=_with_[]006.e	Int_vector	{1, 2, 10, 4, 10}
+operator_=_with_[]007.e	Int_vector	{10, 2, 10, 4, 10}
+operator_=_with_[]008.e	Int_vector	{10, 2, 10, 4, 5}
+operator_=_with_[]009.e	Int_vector	{11, 2, 12, 4, 13}
+operator_=_with_[]010.e	Int_vector	{1, 2, 11, 4, 12}
+operator_=_with_[]011.e	Int_vector	{11, 2, 12, 4, 13}
+operator_=_with_[]012.e	Int_vector	{11, 2, 12, 4, 5}
+operator_=_with_[]015.e	Int_vector	{10, 10, 10, 10, 10}
+operator_=_with_[]018.e	Int_vector	{1, 2, 3, 4, 5}
+operator_=_with_[]020.e	Float_vector	{1, 2, 3, 1, 5}
+operator_=_with_[]021.e	String_vector	{"a", "1", "c"}
 operator_=_with_[]024.e	Int	10
 operator_=_with_[]025.e	Float	10
 operator_=_with_[]027.e	Float	10
 operator_=_with_[]029.e	String	"bar"
+operator_=_with_[]030.e	Int_vector	{7, 8, 3, 9, 5}
+operator_=_with_[]032.e	Int_vector	{1, 2, 9, 5, 5}
+operator_=_with_[]034.e	Int_vector	{1, 2, 9, 5, 5}
 operator_=_with_[]120.e	Int	9
+operator_=_with_[]123.e	Int_vector	{9, 7, 9, 7}
+operator_=_with_[]124.e	Int_vector	{9, 2, 9, 2}
+operator_=_with_[]126.e	Int_vector	{5, 2, 5, 2}
 operator_=_with_[]134.e	Int	8
+operator_=_with_[]135.e	Int_vector	{8, 9}
+operator_=_with_[]136.e	Int_vector	{8, 10}
 operator_=_with_[]137.e	Float	8.5
+operator_=_with_[]138.e	Float_vector	{8.5, 9.5}
+operator_=_with_[]139.e	Float_vector	{8.5, 10.5}
 operator_=_with_[]142.e	Float	9
+operator_=_with_[]143.e	Float_vector	{9, 10}
+operator_=_with_[]144.e	Float_vector	{9, 11}
 operator_=_with_[]145.e	Float	8.5
+operator_=_with_[]146.e	Float_vector	{8.5, 9.5}
+operator_=_with_[]147.e	Float_vector	{8.5, 10.5}
 operator_=_with_[]150.e	Int	2
+operator_=_with_[]151.e	Int_vector	{2, 3}
+operator_=_with_[]152.e	Int_vector	{2, 2}
 operator_=_with_[]153.e	Float	1.5
+operator_=_with_[]154.e	Float_vector	{1.5, 2.5}
+operator_=_with_[]155.e	Float_vector	{1.5, 1.5}
 operator_=_with_[]158.e	Float	2
+operator_=_with_[]159.e	Float_vector	{2, 3}
+operator_=_with_[]160.e	Float_vector	{2, 2}
 operator_=_with_[]161.e	Float	2.5
+operator_=_with_[]162.e	Float_vector	{2.5, 3.5}
+operator_=_with_[]163.e	Float_vector	{2.5, 2.5}
 operator_=_with_[]166.e	Float	2.5
+operator_=_with_[]167.e	Float_vector	{2.5, 3.0}
+operator_=_with_[]168.e	Float_vector	{2.5, 1.5}
 operator_=_with_[]169.e	Float	2.5
+operator_=_with_[]170.e	Float_vector	{2.5, 3.0}
+operator_=_with_[]171.e	Float_vector	{2.5, 1.5}
 operator_=_with_[]174.e	Float	2.5
+operator_=_with_[]175.e	Float_vector	{2.5, 3.0}
+operator_=_with_[]176.e	Float_vector	{2.5, 1.5}
 operator_=_with_[]177.e	Float	2.5
+operator_=_with_[]178.e	Float_vector	{2.5, 3.0}
+operator_=_with_[]179.e	Float_vector	{2.5, 1.5}
+operator_=_with_[]183.e	Float_vector	{1.0, 0.0}
+operator_=_with_[]184.e	Float_vector	{1.0, 2.0}
+operator_=_with_[]186.e	Float_vector	{1.0, 0.0}
+operator_=_with_[]187.e	Float_vector	{1.0, 2.0}
+operator_=_with_[]191.e	Float_vector	{1.0, 0.0}
+operator_=_with_[]192.e	Float_vector	{1.0, 2.0}
+operator_=_with_[]194.e	Float_vector	{1.0, 0.0}
+operator_=_with_[]195.e	Float_vector	{1.0, 2.0}
 operator_=_with_[]198.e	Int	10
+operator_=_with_[]199.e	Int_vector	{10, 12}
+operator_=_with_[]200.e	Int_vector	{10, 24}
 operator_=_with_[]201.e	Float	10.0
+operator_=_with_[]202.e	Float_vector	{10.0, 12.0}
+operator_=_with_[]203.e	Float_vector	{10.0, 24.0}
 operator_=_with_[]206.e	Float	10.0
+operator_=_with_[]207.e	Float_vector	{10.0, 12.0}
+operator_=_with_[]208.e	Float_vector	{10.0, 24.0}
 operator_=_with_[]209.e	Float	10.0
+operator_=_with_[]210.e	Float_vector	{10.0, 12.0}
+operator_=_with_[]211.e	Float_vector	{10.0, 24.0}
 operator_=_with_[]214.e	Float	25.0
+operator_=_with_[]215.e	Float_vector	{25.0, 36.0}
+operator_=_with_[]216.e	Float_vector	{25.0, 216.0}
 operator_=_with_[]217.e	Float	25.0
+operator_=_with_[]218.e	Float_vector	{25.0, 36.0}
+operator_=_with_[]219.e	Float_vector	{25.0, 216.0}
 operator_=_with_[]222.e	Float	25.0
+operator_=_with_[]223.e	Float_vector	{25.0, 36.0}
+operator_=_with_[]224.e	Float_vector	{25.0, 216.0}
 operator_=_with_[]225.e	Float	25.0
+operator_=_with_[]226.e	Float_vector	{25.0, 36.0}
+operator_=_with_[]227.e	Float_vector	{25.0, 216.0}
+operator_:014.e	Int_vector	{1, 2, 3, 4, 5}
+operator_:015.e	Int_vector	{5, 4, 3, 2, 1}
+operator_:016.e	Int_vector	{-2, -1, 0, 1}
+operator_:017.e	Int_vector	{1, 0, -1, -2}
+operator_:019.e	Float_vector	{1, 2, 3, 4, 5}
+operator_:020.e	Float_vector	{5, 4, 3, 2, 1}
+operator_:021.e	Float_vector	{-2, -1, 0, 1}
+operator_:022.e	Float_vector	{1, 0, -1, -2}
 operator_:023.e	Float	1
+operator_:024.e	Float_vector	{1, 2, 3, 4, 5}
+operator_:025.e	Float_vector	{5, 4, 3, 2, 1}
+operator_:026.e	Float_vector	{-2, -1, 0, 1}
+operator_:027.e	Float_vector	{1, 0, -1, -2}
 operator_:028.e	Float	1
+operator_:035.e	Float_vector	{1.5, 2.5, 3.5, 4.5}
+operator_:036.e	Float_vector	{1.5, 0.5, -0.5, -1.5, -2.5}
 operator_^014.e	Float	1
 operator_^015.e	Float	1
+operator_^016.e	Float_vector	{0, 1, 1024}
+operator_^017.e	Float_vector	{1, 10, 100}
+operator_^018.e	Float_vector	{1, 14, 169}
 operator_^021.e	Float	1
 operator_^022.e	Float	1
 operator_^023.e	Float	1
+operator_^024.e	Float_vector	{0, 1, 1024}
+operator_^025.e	Float_vector	{1, 10, 100}
+operator_^026.e	Float_vector	{1, 10, 100}
+operator_^027.e	Float_vector	{1, 14, 169}
 operator_^038.e	Float	262144
 operator_^039.e	Float	262144
 operator_?001.e	Int	23
@@ -214,27 +386,43 @@ return023.e	Int	57
 return025.e	Int	5
 math001.e	Int	5
 math002.e	Int	5
+math003.e	Int_vector	{2, 7, 18, 12}
 math004.e	Float	5.5
 math005.e	Float	5.5
+math006.e	Float_vector	{2, 7, 18, 12}
 math015.e	Int	INT64_MIN
 math105.e	Float	6.0
 math106.e	Float	-5.0
+math107.e	Float_vector	{-2.0, 8, -18, 13}
 math138.e	Int	5
 math139.e	Int	-5
+math140.e	Int_vector	{-2, -14, 252, 3024}
 math141.e	Float	5.5
 math142.e	Float	-5.5
+math143.e	Float_vector	{-2.0, -14.0, 252.0, 3024.0}
 math152.e	Int	INT64_MIN
+math156.e	Float_vector	{5.0, 25.0, 75.0, std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN()}
 math159.e	Int	5
 math160.e	Int	-5
+math161.e	Int_vector	{-2, 5, -13, -1}
 math162.e	Float	5.5
 math163.e	Float	-5.5
+math164.e	Float_vector	{-2.0, 5.0, -13.0, -1.0}
 math173.e	Int	INT64_MIN
+math177.e	Float_vector	{5.0, 10.0, 13.0, std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN()}
 math195.e	Float	5.0
 math196.e	Float	-6.0
+math197.e	Float_vector	{-3.0, 7, -19, 12}
 math213.e	Int	2
 math214.e	Int	2
 math215.e	Int	2
 math216.e	Int	3
+math217.e	Int_vector	{2, 2, 2, 3}
+math218.e	Int_vector	{3, 3, 4, 4}
+math219.e	Int_vector	{-2, -2, -2, -3}
+math220.e	Int_vector	{-3, -3, -4, -4}
+math221.e	Int_vector	{3, 2, 1, 1, 1}
+math222.e	Int_vector	{4, 3, 2, 2, 2}
 math223.e	Int	-2
 math224.e	Int	-2
 math225.e	Int	-2
@@ -248,6 +436,12 @@ math232.e	Int	2
 math233.e	Int	2
 math234.e	Int	3
 math250.e	Int	2
+math252.e	Int_vector	{0, 1, 2, 0}
+math253.e	Int_vector	{0, 1, 0, 1}
+math254.e	Int_vector	{0, -1, -2, 0}
+math255.e	Int_vector	{0, -1, 0, -1}
+math256.e	Int_vector	{0, 0, 2, 1, 0}
+math257.e	Int_vector	{0, 0, 2, 1, 0}
 math259.e	Int	-1
 math260.e	Int	-2
 math264.e	Int	2
@@ -265,6 +459,7 @@ math399.e	Int	-25
 math400.e	Int	-75
 math401.e	Float	5.0
 math402.e	Float	-5.0
+math403.e	Float_vector	{-2.0, 7, -19, 13}
 math437.e	Int	7
 math438.e	Int	7
 math439.e	Float	3.2
@@ -275,28 +470,68 @@ math443.e	Int	7
 math444.e	Int	7
 math449.e	Int	7
 math450.e	Int	7
+math451.e	Int_vector	{7, 8}
+math452.e	Int_vector	{7, 8}
 math453.e	Float	3.2
 math454.e	Float	3.2
+math455.e	Float_vector	{4.2, 3.2}
+math456.e	Float_vector	{3.2, 4.2}
 math457.e	String	"foo"
 math458.e	String	"foo"
+math459.e	String_vector	{"foo", "bar"}
+math460.e	String_vector	{"foo", "bar"}
 math461.e	Int	7
 math462.e	Int	7
+math463.e	Int_vector	{9, 7}
+math464.e	Int_vector	{7, 9}
 math469.e	Int	7
+math470.e	Int_vector	{8, 7}
 math471.e	Float	3.2
+math472.e	Float_vector	{2.3, 3.2}
 math473.e	String	"foo"
+math474.e	String_vector	{"bar", "foo"}
 math475.e	Int	7
+math476.e	Int_vector	{7, 9}
 math481.e	Int	7
+math482.e	Int_vector	{7, 8}
+math483.e	Int_vector	{7, 8}
+math484.e	Int_vector	{7, 9, 8}
 math485.e	Float	3.2
+math486.e	Float_vector	{3.2, 2.3}
+math487.e	Float_vector	{3.2, 2.3}
+math488.e	Float_vector	{3.2, 7.6, 2.3}
 math489.e	String	"foo"
+math490.e	String_vector	{"foo", "bar"}
+math491.e	String_vector	{"foo", "bar"}
+math492.e	String_vector	{"foo", "baz", "bar"}
 math493.e	Int	7
+math494.e	Int_vector	{7, 9}
+math495.e	Int_vector	{7, 9}
+math496.e	Int_vector	{7, -5, 9}
 math501.e	Int	7
+math502.e	Int_vector	{7, 8}
+math503.e	Int_vector	{7, 8}
+math504.e	Int_vector	{7, 9, 8}
 math505.e	Float	3.2
+math506.e	Float_vector	{3.2, 2.3}
+math507.e	Float_vector	{3.2, 2.3}
+math508.e	Float_vector	{3.2, 7.6, 2.3}
 math509.e	String	"foo"
+math510.e	String_vector	{"foo", "bar"}
+math511.e	String_vector	{"foo", "bar"}
+math512.e	String_vector	{"foo", "baz", "bar"}
 math513.e	Int	7
+math514.e	Int_vector	{7, 9}
+math515.e	Int_vector	{7, 9}
+math516.e	Int_vector	{7, -5, 9}
 math519.e	Int	7
+math520.e	Int_vector	{7, 10, 8, 9}
 math521.e	Float	3.2
+math522.e	Float_vector	{3.2, 6.0, 7.9, 5.5}
 math523.e	String	"foo"
+math524.e	String_vector	{"foo", "bar", "foobaz", "baz"}
 math525.e	Int	7
+math526.e	Int_vector	{7, 9, 26, -5}
 math575.e	Int	7
 math577.e	Float	3.2
 math579.e	String	"foo"
@@ -319,20 +554,28 @@ math619.e	Int	7
 math621.e	Int	9
 math626.e	Int	7
 math627.e	Int	7
+math628.e	Int_vector	{7, 8}
 math629.e	Float	3.2
 math630.e	Float	3.2
+math631.e	Float_vector	{3.2, 6.0}
 math632.e	String	"foo"
 math633.e	String	"foo"
+math634.e	String_vector	{"foo", "bar"}
 math635.e	Int	7
 math636.e	Int	7
+math637.e	Int_vector	{7, 9}
 math654.e	Int	7
 math656.e	Float	3.2
 math658.e	String	"foo"
 math660.e	Int	7
 math666.e	Int	7
+math668.e	Int_vector	{7, 8}
 math670.e	Float	3.2
+math672.e	Float_vector	{4.2, 3.2}
 math674.e	String	"foo"
+math676.e	String_vector	{"foo", "bar"}
 math678.e	Int	7
+math680.e	Int_vector	{9, 7}
 math687.e	Int	8
 math689.e	Float	2.3
 math691.e	String	"bar"
@@ -347,13 +590,20 @@ math711.e	Int	9
 math713.e	Int	9
 math719.e	Int	7
 math720.e	Int	7
+math721.e	Int_vector	{7, 9}
 math723.e	Float	3.2
 math724.e	Float	3.2
+math725.e	Float_vector	{3.2, 7.6}
 math727.e	String	"foo"
 math728.e	String	"foo"
+math729.e	String_vector	{"foo", "baz"}
 math731.e	Int	7
 math732.e	Int	7
+math733.e	Int_vector	{7, -5}
+math738.e	Int_vector	{10, 8}
 math740.e	Float	7.9
+math742.e	String_vector	{"bar", "foobaz"}
+math744.e	Int_vector	{9, 26}
 math763.e	Int	7
 math764.e	Int	7
 math765.e	Float	3.2
@@ -364,22 +614,56 @@ math769.e	Int	7
 math770.e	Int	7
 math775.e	Int	7
 math776.e	Int	7
+math777.e	Int_vector	{7, 8}
+math778.e	Int_vector	{7, 8}
 math779.e	Float	3.2
 math780.e	Float	3.2
+math781.e	Float_vector	{4.2, 3.2}
+math782.e	Float_vector	{3.2, 4.2}
 math783.e	String	"foo"
 math784.e	String	"foo"
+math785.e	String_vector	{"foo", "bar"}
+math786.e	String_vector	{"foo", "bar"}
 math787.e	Int	7
 math788.e	Int	7
+math789.e	Int_vector	{9, 7}
+math790.e	Int_vector	{7, 9}
+math796.e	Int_vector	{8, 7}
+math798.e	Float_vector	{2.3, 3.2}
+math800.e	String_vector	{"bar", "foo"}
+math802.e	Int_vector	{7, 9}
+math808.e	Int_vector	{7, 8}
 math809.e	Int	7
+math810.e	Int_vector	{7, 9, 8}
+math812.e	Float_vector	{3.2, 2.3}
 math813.e	Float	3.2
+math814.e	Float_vector	{3.2, 7.6, 2.3}
+math816.e	String_vector	{"foo", "bar"}
 math817.e	String	"foo"
+math818.e	String_vector	{"foo", "baz", "bar"}
+math820.e	Int_vector	{7, 9}
 math821.e	Int	7
+math822.e	Int_vector	{7, -5, 9}
+math828.e	Int_vector	{7, 8}
 math829.e	Int	7
+math830.e	Int_vector	{7, 9, 8}
+math832.e	Float_vector	{3.2, 2.3}
 math833.e	Float	3.2
+math834.e	Float_vector	{3.2, 7.6, 2.3}
+math836.e	String_vector	{"foo", "bar"}
 math837.e	String	"foo"
+math838.e	String_vector	{"foo", "baz", "bar"}
+math840.e	Int_vector	{7, 9}
 math841.e	Int	7
+math842.e	Int_vector	{7, -5, 9}
+math847.e	Int_vector	{10, 8, 9}
+math849.e	Float_vector	{10.5, 8.9, 9.7}
+math851.e	String_vector	{"bar", "foobaz", "baz"}
+math853.e	Int_vector	{9, -5, 26}
 math869.e	Float	8
+math871.e	Float_vector	{2, NAN, 3, 32}
 math872.e	Float	8
+math874.e	Float_vector	{2, NAN, 3, 32}
 math886.e	Int	5
 math887.e	Int	-5
 math888.e	Int	-1
@@ -403,6 +687,7 @@ math921.e	Float	0.0
 math922.e	Float	3.0
 math938.e	Float	5.0
 math939.e	Float	-5.0
+math940.e	Float_vector	{-2.0, 7, -18, 12}
 statistics044.e	Int	3
 statistics045.e	Float	3.5
 statistics046.e	String	"foo"
@@ -433,30 +718,104 @@ statistics113.e	Int	5
 statistics114.e	Int	6
 statistics115.e	Int	7
 statistics116.e	Int	8
+statistics117.e	Int_vector	{5, 6, 7, 8}
 statistics118.e	Float	5
 statistics119.e	Float	6
 statistics120.e	Float	7
+statistics124.e	Float_vector	{5, 6, 7, std::numeric_limits<double>::infinity(), std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN()}
 statistics125.e	String	"foo"
 statistics126.e	String	"baz"
 statistics127.e	String	"xyzzy"
 statistics128.e	String	"bar"
+statistics129.e	String_vector	{"foo", "baz", "xyzzy", "bar"}
+statistics132.e	Int_vector	{5, 6, 4, 4}
+statistics133.e	Int_vector	{1, -2, 7, 8}
+statistics134.e	Float_vector	{5, 6, 4, 4, 4, std::numeric_limits<double>::infinity()}
+statistics135.e	Float_vector	{5, 5, 7, std::numeric_limits<double>::infinity(), std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN()}
+statistics136.e	String_vector	{"baz", "baz", "xyzzy", "baz"}
+statistics137.e	String_vector	{"foo", "baz", "xyzzy", "baz"}
 statistics173.e	Int	-8
 statistics175.e	Int	-8
+statistics176.e	Int_vector	{1, -8, 1, -8}
 statistics177.e	Float	1
 statistics178.e	Float	-std::numeric_limits<double>::infinity(
 statistics179.e	Float	1
 statistics180.e	Float	-8
+statistics183.e	Float_vector	{1, -std::numeric_limits<double>::infinity(), 1, -8, std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN()}
 statistics184.e	String	"bar"
 statistics185.e	String	"bar"
 statistics186.e	String	"xyzzy"
+statistics188.e	String_vector	{"bar", "bar", "xyzzy", ""}
+statistics191.e	Int_vector	{4, 4, 1, -8}
+statistics192.e	Int_vector	{-2, -8, -2, -2}
+statistics193.e	Float_vector	{4, 4, 1, -8, -8, 4}
+statistics194.e	Float_vector	{1, -std::numeric_limits<double>::infinity(), 5, 5, std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN()}
+statistics195.e	String_vector	{"bar", "baz", "baz", "bar"}
+statistics196.e	String_vector	{"baz", "bar", "baz", ""}
+statistics220.e	Int_vector	{3, 3}
+statistics221.e	Float_vector	{3.5, 3.5}
+statistics224.e	Int_vector	{-5, 19}
+statistics225.e	Float_vector	{-5.8, 19.1}
+statistics233.e	Float_vector	{std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN()}
+statistics234.e	Int_vector	{-10,10}
+statistics235.e	Float_vector	{-8,10}
 statistics241.e	Float	3
 statistics242.e	Float	2.0
 statistics268.e	Float	9
 statistics269.e	Float	4.0
+distributions026.e	Int_vector	{0}
+distributions027.e	Int_vector	{0, 0, 0}
+distributions028.e	Int_vector	{10, 10, 10}
+distributions029.e	Int_vector	{0, 0, 0}
+distributions030.e	Int_vector	{0, 0, 0}
+distributions031.e	Int_vector	{0, 1, 1, 1, 1, 1, 0, 0, 0, 0}
+distributions032.e	Int_vector	{1, 0, 0, 1, 1, 0, 1, 0, 1, 0}
+distributions033.e	Int_vector	{4, 8, 5, 3, 4}
+distributions034.e	Int_vector	{7, 6, 3, 6, 3}
+distributions035.e	Int_vector	{11, 16, 10, 14, 10}
+distributions036.e	Int_vector	{992, 990, 995, 991, 995}
+distributions037.e	Int_vector	{7, 50, 87}
+distributions038.e	Int_vector	{6, 12, 26}
+distributions064.e	Int_vector	{0}
+distributions065.e	Int_vector	{0, 0, 0}
+distributions066.e	Int_vector	{1}
+distributions067.e	Int_vector	{1, 1, 1}
+distributions093.e	Float_vector	{0.0, 0.0, 0.0}
+distributions107.e	Int_vector	{0, 0, 0, 0, 0}
+distributions108.e	Int_vector	{0, 1, 10, 1, 10}
+distributions109.e	Int_vector	{0, 0, 4, 0, 4}
+distributions110.e	Int_vector	{31, 31, 299, 129, 58}
+distributions111.e	Int_vector	{4866}
+distributions112.e	Int_vector	{0, 13, 73, 2860, 8316, 282489}
+distributions121.e	Float_vector	{1.0}
+distributions122.e	Float_vector	{1.0, 1.0, 1.0}
+distributions141.e	Float_vector	{0.0}
+distributions142.e	Float_vector	{0.0, 0.0, 0.0}
+distributions143.e	Float_vector	{1.0}
+distributions144.e	Float_vector	{1.0, 1.0, 1.0}
+distributions158.e	Int_vector	{0, 2, 0, 1, 1}
+distributions159.e	Int_vector	{1, 0, 0, 0, 0}
+distributions160.e	Int_vector	{10205, 10177, 10094, 10227, 9875}
+distributions161.e	Int_vector	{10205}
+distributions162.e	Int_vector	{0, 8, 97, 994, 9911}
+distributions171.e	Float_vector	{0.0}
+distributions172.e	Float_vector	{0.0, 0.0, 0.0}
+distributions173.e	Float_vector	{1.0}
+distributions174.e	Float_vector	{1.0, 1.0, 1.0}
 vector_construction004.e	Int	3
 vector_construction005.e	Float	3.1
 vector_construction006.e	String	"foo"
 vector_construction007.e	Int	7
+vector_construction010.e	Int_vector	{3, 7, 19, -5, 9}
+vector_construction011.e	Float_vector	{3.3, 7.7, 19.1, -5.8, 9.0}
+vector_construction012.e	String_vector	{"foo", "bar", "baz"}
+vector_construction013.e	Int_vector	{7, 3, -9}
+vector_construction015.e	Int_vector	{3, 7, 17, -2, -5, 9}
+vector_construction016.e	Float_vector	{3.3, 7.7, 17.1, -2.9, -5.8, 9.0}
+vector_construction017.e	String_vector	{"foo", "bar", "bar2", "bar3", "baz"}
+vector_construction018.e	Int_vector	{1, 3, 0, 1, 7}
+vector_construction019.e	Float_vector	{1, 3, 0, 1, 7.1}
+vector_construction020.e	String_vector	{"T", "3", "6", "bar", "7.1"}
 vector_construction022.e	Int	3
 vector_construction023.e	Float	3.1
 vector_construction024.e	String	"foo"
@@ -467,32 +826,171 @@ vector_construction029.e	String	"foo"
 vector_construction030.e	Int	7
 vector_construction035.e	Int	7
 vector_construction036.e	Int	7
-vector_construction038.e	Object	gEidosTestElement_Class
-vector_construction039.e	Object	gEidosTestElement_Class
-vector_construction040.e	Object	gEidosTestElement_Class
-vector_construction088.e	Object	gEidosTestElement_Class
-vector_construction118.e	Object	gEidosTestElement_Class
+vector_construction043.e	Float_vector	{0.0, 0.0}
+vector_construction044.e	Float_vector	{0.0, 0.0, 0.0, 0.0, 0.0}
+vector_construction051.e	Int_vector	{0, 0}
+vector_construction052.e	Int_vector	{0, 0, 0, 0, 0}
+vector_construction057.e	Int_vector	{0, 0, 0, 1, 0, 0, 0, 0, 0, 0}
+vector_construction058.e	Int_vector	{1, 1, 1, 0, 1, 1, 1, 1, 1, 1}
+vector_construction059.e	Int_vector	{8, 8, 8, -3, 8, 8, 8, 8, 8, 8}
+vector_construction060.e	Int_vector	{0, 1, 0, 1, 0, 0, 0, 1, 0, 0}
+vector_construction061.e	Int_vector	{1, 0, 1, 0, 1, 1, 1, 0, 1, 1}
+vector_construction062.e	Int_vector	{8, -3, 8, -3, 8, 8, 8, -3, 8, 8}
+vector_construction063.e	Int_vector	{8, 8, 8, 8, 8, 8, 8, 8, 8, 8}
+vector_construction064.e	Int_vector	{8, 8, 8, 8, 8, 8, 8, 8, 8, 8}
+vector_construction091.e	Int_vector	{3, 3}
+vector_construction092.e	Float_vector	{3.5, 3.5}
+vector_construction093.e	String_vector	{"foo", "foo"}
+vector_construction094.e	Int_vector	{7, 7}
+vector_construction096.e	Int_vector	{3, 7, 3, 7}
+vector_construction097.e	Float_vector	{3.5, 9.1, 3.5, 9.1}
+vector_construction098.e	String_vector	{"foo", "bar", "foo", "bar"}
+vector_construction099.e	Int_vector	{7, 2, 7, 2}
+vector_construction121.e	Int_vector	{3, 3}
+vector_construction122.e	Float_vector	{3.5, 3.5}
+vector_construction123.e	String_vector	{"foo", "foo"}
+vector_construction124.e	Int_vector	{7, 7}
+vector_construction126.e	Int_vector	{3, 3, 7, 7}
+vector_construction127.e	Float_vector	{3.5, 3.5, 9.1, 9.1}
+vector_construction128.e	String_vector	{"foo", "foo", "bar", "bar"}
+vector_construction129.e	Int_vector	{7, 7, 2, 2}
+vector_construction132.e	Int_vector	{3, 3, 7, 7, 7}
+vector_construction133.e	Float_vector	{3.5, 3.5, 9.1, 9.1, 9.1}
+vector_construction134.e	String_vector	{"foo", "foo", "bar", "bar", "bar"}
+vector_construction135.e	Int_vector	{7, 7, 2, 2, 2}
 vector_construction165.e	Int	5
 vector_construction166.e	Int	5
+vector_construction167.e	Int_vector	{5, 5}
+vector_construction169.e	Int_vector	{1, 5, 3, 1, 2}
+vector_construction170.e	Int_vector	{1, 5, 3, 2, 4}
+vector_construction171.e	Int_vector	{1, 5, 3, 1, 2, 3}
+vector_construction173.e	Int_vector	{4, 5, 5, 3, 4}
+vector_construction174.e	Int_vector	{4, 5, 3, 1, 2}
+vector_construction175.e	Int_vector	{4, 5, 5, 3, 4}
+vector_construction181.e	Int_vector	{1, 2, 3, 4, 5}
+vector_construction182.e	Int_vector	{5, 4, 3, 2, 1}
+vector_construction184.e	Float_vector	{1.1, 2.1, 3.1, 4.1}
+vector_construction185.e	Float_vector	{1, 2, 3, 4, 5}
+vector_construction186.e	Float_vector	{5.5, 4.5, 3.5, 2.5, 1.5}
+vector_construction188.e	Int_vector	{1, 3, 5, 7, 9}
+vector_construction190.e	Int_vector	{10, 8, 6, 4, 2}
+vector_construction202.e	Int_vector	{2, 1}
 vector_construction207.e	Int	2
+vector_construction208.e	Int_vector	{2, 3}
+vector_construction209.e	Int_vector	{2, 2, 2, 2, 2}
+vector_construction210.e	Int_vector	{2, 4, 6, 8, 10}
+vector_construction211.e	Float_vector	{2.0, 2.5, 3.0, 3.5, 4.0}
+vector_construction212.e	Int_vector	{3, 2}
+vector_construction213.e	Int_vector	{10, 8, 6, 4, 2}
+vector_construction214.e	Float_vector	{4.0, 3.5, 3.0, 2.5, 2.0}
 vector_construction219.e	Float	2
+vector_construction220.e	Float_vector	{2, 3}
+vector_construction221.e	Float_vector	{2, 2, 2, 2, 2}
+vector_construction222.e	Float_vector	{2, 4, 6, 8, 10}
+vector_construction223.e	Float_vector	{2.0, 2.5, 3.0, 3.5, 4.0}
+vector_construction224.e	Float_vector	{3, 2}
+vector_construction225.e	Float_vector	{10, 8, 6, 4, 2}
+vector_construction226.e	Float_vector	{4.0, 3.5, 3.0, 2.5, 2.0}
+vector_construction238.e	Int_vector	{0, 1, 2, 3, 4}
+vector_construction239.e	Int_vector	{0, 1, 2, 3, 4}
+vector_construction240.e	Int_vector	{0, 1, 2}
+vector_construction241.e	Int_vector	{0}
+vector_construction242.e	Int_vector	{0, 1, 2, 3, 4}
+vector_construction243.e	Int_vector	{0, 1, 2, 3, 4}
 vector_construction244.e	Int	0
+vector_construction251.e	String_vector	{"", ""}
+vector_construction252.e	String_vector	{"", "", "", "", ""}
 value_inspection_or_manipulation089.e	String	"0"
 value_inspection_or_manipulation090.e	String	"0.500000"
 value_inspection_or_manipulation095.e	String	"foo == 0"
+value_inspection_or_manipulation101.e	String_vector	{"8","9","10","11","12"}
+value_inspection_or_manipulation102.e	String_vector	{"  8","  9"," 10"," 11"," 12"}
+value_inspection_or_manipulation103.e	String_vector	{"         8","         9","        10","        11","        12"}
+value_inspection_or_manipulation104.e	String_vector	{"8  ","9  ","10 ","11 ","12 "}
+value_inspection_or_manipulation105.e	String_vector	{" 8 "," 9 "," 10"," 11"," 12"}
+value_inspection_or_manipulation106.e	String_vector	{" +8"," +9","+10","+11","+12"}
+value_inspection_or_manipulation107.e	String_vector	{"+8 ","+9 ","+10","+11","+12"}
+value_inspection_or_manipulation108.e	String_vector	{"+08","+09","+10","+11","+12"}
+value_inspection_or_manipulation109.e	String_vector	{"8","9","10","11","12"}
+value_inspection_or_manipulation110.e	String_vector	{"10","11","12","13","14"}
+value_inspection_or_manipulation111.e	String_vector	{"8","9","a","b","c"}
+value_inspection_or_manipulation112.e	String_vector	{"8","9","A","B","C"}
+value_inspection_or_manipulation118.e	String_vector	{"%8%","%9%","%10%","%11%","%12%"}
+value_inspection_or_manipulation119.e	String_vector	{"8.000000","9.000000","10.000000","11.000000","12.000000"}
+value_inspection_or_manipulation120.e	String_vector	{"8.00","9.00","10.00","11.00","12.00"}
+value_inspection_or_manipulation121.e	String_vector	{"    8.00","    9.00","   10.00","   11.00","   12.00"}
+value_inspection_or_manipulation122.e	String_vector	{"   +8.00","   +9.00","  +10.00","  +11.00","  +12.00"}
+value_inspection_or_manipulation123.e	String_vector	{"+0008.00","+0009.00","+0010.00","+0011.00","+0012.00"}
+value_inspection_or_manipulation124.e	String_vector	{"8.00    ","9.00    ","10.00   ","11.00   ","12.00   "}
+value_inspection_or_manipulation125.e	String_vector	{" 8.00   "," 9.00   "," 10.00  "," 11.00  "," 12.00  "}
+value_inspection_or_manipulation126.e	String_vector	{"    8.00","    9.00","   10.00","   11.00","   12.00"}
+value_inspection_or_manipulation127.e	String_vector	{"8.00e+00", "9.00e+00", "1.00e+01", "1.10e+01", "1.20e+01"}
+value_inspection_or_manipulation128.e	String_vector	{"8.00E+00", "9.00E+00", "1.00E+01", "1.10E+01", "1.20E+01"}
+value_inspection_or_manipulation129.e	String_vector	{"       8","       9","      10","      11","      12"}
+value_inspection_or_manipulation130.e	String_vector	{"     8.0","     9.0","     10.","     11.","     12."}
 value_inspection_or_manipulation292.e	Int	5
 value_inspection_or_manipulation293.e	Int	2
+value_inspection_or_manipulation294.e	Int_vector	{5, 5}
+value_inspection_or_manipulation295.e	Int_vector	{2, 2}
+value_inspection_or_manipulation296.e	Int_vector	{5, 2}
+value_inspection_or_manipulation297.e	Int_vector	{5, 6}
+value_inspection_or_manipulation298.e	Int_vector	{5, 5}
+value_inspection_or_manipulation299.e	Int_vector	{2, 2}
+value_inspection_or_manipulation300.e	Int_vector	{2, 3}
+value_inspection_or_manipulation301.e	Int_vector	{5, 6}
+value_inspection_or_manipulation302.e	Int_vector	{2, 3}
+value_inspection_or_manipulation303.e	Int_vector	{5, 3}
+value_inspection_or_manipulation304.e	Int_vector	{1, -5, -4, 4, -2, 6}
 value_inspection_or_manipulation306.e	Float	5.3
 value_inspection_or_manipulation307.e	Float	2.1
+value_inspection_or_manipulation308.e	Float_vector	{5.3, 5.3}
+value_inspection_or_manipulation309.e	Float_vector	{2.1, 2.1}
+value_inspection_or_manipulation310.e	Float_vector	{5.3, 2.1}
+value_inspection_or_manipulation311.e	Float_vector	{5.3, 6.3}
+value_inspection_or_manipulation312.e	Float_vector	{5.3, 5.3}
+value_inspection_or_manipulation313.e	Float_vector	{2.1, 2.1}
+value_inspection_or_manipulation314.e	Float_vector	{2.1, 3.1}
+value_inspection_or_manipulation315.e	Float_vector	{5.3, 6.3}
+value_inspection_or_manipulation316.e	Float_vector	{2.1, 3.1}
+value_inspection_or_manipulation317.e	Float_vector	{5.3, 3.1}
+value_inspection_or_manipulation318.e	Float_vector	{1.0, -5.0, -4.0, 4.0, -2.0, 6.0}
 value_inspection_or_manipulation320.e	String	"foo"
 value_inspection_or_manipulation321.e	String	"bar"
+value_inspection_or_manipulation322.e	String_vector	{"foo", "foo"}
+value_inspection_or_manipulation323.e	String_vector	{"bar", "bar"}
+value_inspection_or_manipulation324.e	String_vector	{"foo", "bar"}
+value_inspection_or_manipulation325.e	String_vector	{"foo", "baz"}
+value_inspection_or_manipulation326.e	String_vector	{"foo", "foo"}
+value_inspection_or_manipulation327.e	String_vector	{"bar", "bar"}
+value_inspection_or_manipulation328.e	String_vector	{"bar", "xyzzy"}
+value_inspection_or_manipulation329.e	String_vector	{"foo", "baz"}
+value_inspection_or_manipulation330.e	String_vector	{"bar", "xyzzy"}
+value_inspection_or_manipulation331.e	String_vector	{"foo", "xyzzy"}
+value_inspection_or_manipulation332.e	String_vector	{"a", "B", "C", "d", "E", "f"}
 value_inspection_or_manipulation334.e	Int	5
 value_inspection_or_manipulation335.e	Int	2
+value_inspection_or_manipulation336.e	Int_vector	{5, 5}
+value_inspection_or_manipulation337.e	Int_vector	{2, 2}
+value_inspection_or_manipulation338.e	Int_vector	{5, 2}
+value_inspection_or_manipulation339.e	Int_vector	{5, 6}
+value_inspection_or_manipulation340.e	Int_vector	{5, 5}
+value_inspection_or_manipulation341.e	Int_vector	{2, 2}
+value_inspection_or_manipulation342.e	Int_vector	{2, 3}
+value_inspection_or_manipulation343.e	Int_vector	{5, 6}
+value_inspection_or_manipulation344.e	Int_vector	{2, 3}
+value_inspection_or_manipulation345.e	Int_vector	{5, 3}
+value_inspection_or_manipulation346.e	Int_vector	{1, -5, -4, 4, -2, 6}
 value_inspection_or_manipulation368.e	Int	-1
 value_inspection_or_manipulation376.e	Int	-1
 value_inspection_or_manipulation384.e	Int	-1
 value_inspection_or_manipulation392.e	Int	-1
 value_inspection_or_manipulation399.e	Int	-1
+value_inspection_or_manipulation401.e	Int_vector	{-1, 0, -1, -1, 0, 0}
+value_inspection_or_manipulation402.e	Int_vector	{-1, -1, -1, -1, 0, -1}
+value_inspection_or_manipulation403.e	Int_vector	{-1, -1, -1, -1, 0, -1}
+value_inspection_or_manipulation404.e	Int_vector	{-1, -1, -1, -1, 0, -1}
+value_inspection_or_manipulation405.e	Int_vector	{-1, -1}
+value_inspection_or_manipulation406.e	Int_vector	{-1, -1, -1, -1, 0, -1}
 value_inspection_or_manipulation408.e	Int	2
 value_inspection_or_manipulation409.e	Int	2
 value_inspection_or_manipulation410.e	Int	2
@@ -504,11 +1002,26 @@ value_inspection_or_manipulation415.e	Int	-1
 value_inspection_or_manipulation416.e	Int	-1
 value_inspection_or_manipulation417.e	Int	-1
 value_inspection_or_manipulation418.e	Int	-1
+value_inspection_or_manipulation419.e	Int_vector	{-1, 0, -1, -1, 0, 0}
+value_inspection_or_manipulation420.e	Int_vector	{1, -1, -1, 2, 0, 1}
+value_inspection_or_manipulation421.e	Int_vector	{1, -1, -1, 2, 0, 1}
+value_inspection_or_manipulation422.e	Int_vector	{1, -1, -1, 2, 0, 1}
+value_inspection_or_manipulation423.e	Int_vector	{-1, -1}
+value_inspection_or_manipulation424.e	Int_vector	{1, -1, -1, 2, 0, 1}
 value_inspection_or_manipulation432.e	Int	5
 value_inspection_or_manipulation433.e	Int	6
+value_inspection_or_manipulation434.e	Int_vector	{0, 5, 0, 6}
 value_inspection_or_manipulation440.e	Int	0
 value_inspection_or_manipulation441.e	Int	0
 value_inspection_or_manipulation442.e	Int	0
+value_inspection_or_manipulation443.e	Int_vector	{2, 4, 3, 0, 1}
+value_inspection_or_manipulation444.e	Int_vector	{2, 4, 3, 0, 1}
+value_inspection_or_manipulation445.e	Int_vector	{2, 0, 1, 4, 3}
+value_inspection_or_manipulation446.e	Int_vector	{1, 0, 3, 4, 2}
+value_inspection_or_manipulation447.e	Int_vector	{3, 4, 1, 0, 2}
+value_inspection_or_manipulation448.e	Int_vector	{1, 0}
+value_inspection_or_manipulation449.e	Int_vector	{2, 4, 3, 0, 1}
+value_inspection_or_manipulation450.e	Int_vector	{0, 3, 2, 1, 4}
 value_inspection_or_manipulation453.e	String	"T"
 value_inspection_or_manipulation454.e	String	"5"
 value_inspection_or_manipulation455.e	String	"5.5"
@@ -539,9 +1052,13 @@ value_inspection_or_manipulation482.e	String	"56789"
 value_inspection_or_manipulation483.e	String	"5.56.57.58.5"
 value_inspection_or_manipulation484.e	String	"foobarbaz"
 value_inspection_or_manipulation485.e	String	"_TestElement_TestElement_TestElement"
+value_inspection_or_manipulation497.e	Int_vector	{10,9,8,7,6}
+value_inspection_or_manipulation498.e	Int_vector	{-10,-9,-8,-7,-6}
+value_inspection_or_manipulation499.e	String_vector	{"baz","bar","foo"}
 value_inspection_or_manipulation500.e	Int	-1
 value_inspection_or_manipulation501.e	Float	1
 value_inspection_or_manipulation502.e	String	"foo"
+value_inspection_or_manipulation503.e	Float_vector	{10,9,8,7,6}
 value_inspection_or_manipulation508.e	Int	2
 value_inspection_or_manipulation509.e	Int	3
 value_inspection_or_manipulation510.e	Int	4
@@ -551,23 +1068,90 @@ value_inspection_or_manipulation516.e	Int	4
 value_inspection_or_manipulation520.e	Int	3
 value_inspection_or_manipulation521.e	Int	3
 value_inspection_or_manipulation522.e	Int	3
+value_inspection_or_manipulation523.e	Int_vector	{-3, 2, 5, 6, 19}
+value_inspection_or_manipulation524.e	Int_vector	{-3, 2, 5, 6, 19}
+value_inspection_or_manipulation525.e	Int_vector	{19, 6, 5, 2, -3}
+value_inspection_or_manipulation527.e	Float_vector	{-3.7, 2.3, 5.2, 6.1, 19.3}
+value_inspection_or_manipulation528.e	String_vector	{"a", "f", "m", "q", "w"}
+value_inspection_or_manipulation541.e	Int_vector	{-8, 2, 3, 7, 75}
+value_inspection_or_manipulation542.e	Int_vector	{-8, 2, 3, 7, 75}
+value_inspection_or_manipulation543.e	Int_vector	{75, 7, 3, 2, -8}
+value_inspection_or_manipulation581.e	String_vector	{"", ""}
+value_inspection_or_manipulation582.e	String_vector	{"", ""}
+value_inspection_or_manipulation583.e	String_vector	{"", "", ""}
+value_inspection_or_manipulation584.e	String_vector	{"", "", ""}
+value_inspection_or_manipulation585.e	String_vector	{"$", "$", "$", "$"}
+value_inspection_or_manipulation586.e	String_vector	{"This", "is", "a", "test."}
 value_inspection_or_manipulation587.e	String	"This is a test."
+value_inspection_or_manipulation588.e	String_vector	{"Th", "s ", "s a test."}
+value_inspection_or_manipulation589.e	String_vector	{"Thi", " i", " a te", "t."}
+value_inspection_or_manipulation590.e	String_vector	{"T", "h", "i", "s", " ", "i", "s", " ", "a", " ", "t", "e", "s", "t", "."}
+value_inspection_or_manipulation593.e	String_vector	{"oo"}
+value_inspection_or_manipulation594.e	String_vector	{"oo"}
+value_inspection_or_manipulation595.e	String_vector	{"o"}
+value_inspection_or_manipulation596.e	String_vector	{"oo"}
+value_inspection_or_manipulation597.e	String_vector	{"oo"}
+value_inspection_or_manipulation598.e	String_vector	{""}
+value_inspection_or_manipulation599.e	String_vector	{""}
+value_inspection_or_manipulation600.e	String_vector	{"foo"}
+value_inspection_or_manipulation601.e	String_vector	{"fo"}
+value_inspection_or_manipulation604.e	String_vector	{"oo", "ar", "oobaz"}
+value_inspection_or_manipulation605.e	String_vector	{"oo", "ar", "oobaz"}
+value_inspection_or_manipulation606.e	String_vector	{"o", "a", "o"}
+value_inspection_or_manipulation607.e	String_vector	{"oo", "ar", "oo"}
+value_inspection_or_manipulation608.e	String_vector	{"oo", "ar", "oob"}
+value_inspection_or_manipulation609.e	String_vector	{"oo", "r", "baz"}
+value_inspection_or_manipulation610.e	String_vector	{"o", "ar", "oob"}
+value_inspection_or_manipulation611.e	String_vector	{"o", "r", "b"}
+value_inspection_or_manipulation612.e	String_vector	{"oo", "r", "baz"}
+value_inspection_or_manipulation613.e	String_vector	{"", "", ""}
+value_inspection_or_manipulation614.e	String_vector	{"", "", ""}
+value_inspection_or_manipulation615.e	String_vector	{"foo", "bar", "foobaz"}
+value_inspection_or_manipulation616.e	String_vector	{"fo", "ba", "fo"}
 value_inspection_or_manipulation626.e	Int	5
 value_inspection_or_manipulation627.e	Float	3.5
 value_inspection_or_manipulation628.e	String	"foo"
 value_inspection_or_manipulation629.e	Int	7
+value_inspection_or_manipulation631.e	Int_vector	{3, 5, 9, 2, 7}
+value_inspection_or_manipulation632.e	Float_vector	{3.5, 1.2, 9.3, -1, 7.6}
+value_inspection_or_manipulation633.e	String_vector	{"foo", "bar", "baz"}
+value_inspection_or_manipulation634.e	Int_vector	{7, 7, 2, 7, 2}
 value_inspection_or_manipulation642.e	Int	5
 value_inspection_or_manipulation643.e	Float	3.5
 value_inspection_or_manipulation644.e	String	"foo"
 value_inspection_or_manipulation645.e	Int	7
+value_inspection_or_manipulation647.e	Int_vector	{2, 3, 5, 7, 9}
+value_inspection_or_manipulation648.e	Float_vector	{-1, 1.2, 3.5, 7.6, 9.3}
+value_inspection_or_manipulation649.e	String_vector	{"bar", "baz", "foo"}
+value_inspection_or_manipulation650.e	Int_vector	{2, 2, 7, 7, 7}
+value_inspection_or_manipulation661.e	Int_vector	{0, 3, 5, 8}
 value_inspection_or_manipulation666.e	Int	2
 value_inspection_or_manipulation667.e	Int	2
 value_inspection_or_manipulation668.e	Int	2
 value_inspection_or_manipulation681.e	Int	3
 value_inspection_or_manipulation682.e	Int	3
+value_type_testing_or_coercion001.e	Float_vector	{-1,0,1,2,3}
+value_type_testing_or_coercion002.e	Float_vector	{-1,0,1,2,3}
+value_type_testing_or_coercion003.e	Float_vector	{1,0,1,0}
+value_type_testing_or_coercion004.e	Float_vector	{1,2,3}
+value_type_testing_or_coercion007.e	Int_vector	{-1,0,1,2,3}
+value_type_testing_or_coercion008.e	Int_vector	{-1,0,1,2,3}
+value_type_testing_or_coercion009.e	Int_vector	{1,0,1,0}
+value_type_testing_or_coercion010.e	Int_vector	{1,2,3}
 value_type_testing_or_coercion016.e	Int	9223372036854774784
 value_type_testing_or_coercion017.e	Int	INT64_MIN
 value_type_testing_or_coercion018.e	Int	INT64_MIN
+value_type_testing_or_coercion022.e	Int_vector	{9223372036854774784, -512}
+value_type_testing_or_coercion023.e	Int_vector	{INT64_MIN, -1}
+value_type_testing_or_coercion024.e	Int_vector	{INT64_MIN, -1025}
+value_type_testing_or_coercion034.e	String_vector	{"NULL"}
+value_type_testing_or_coercion035.e	String_vector	{"-1"}
+value_type_testing_or_coercion036.e	String_vector	{"3"}
+value_type_testing_or_coercion037.e	String_vector	{"-1","0","1","2","3"}
+value_type_testing_or_coercion038.e	String_vector	{"-1","0","1","2","3"}
+value_type_testing_or_coercion039.e	String_vector	{"1","NAN","-2"}
+value_type_testing_or_coercion040.e	String_vector	{"T","F","T","F"}
+value_type_testing_or_coercion041.e	String_vector	{"1","2","3"}
 value_type_testing_or_coercion043.e	String	"NULL"
 value_type_testing_or_coercion044.e	String	"logical"
 value_type_testing_or_coercion045.e	String	"integer"
@@ -586,7 +1170,100 @@ value_type_testing_or_coercion099.e	String	"float"
 value_type_testing_or_coercion100.e	String	"string"
 value_type_testing_or_coercion101.e	String	"object"
 value_type_testing_or_coercion102.e	String	"object"
+matrix_and_array027.e	Int_vector	{1, 1}
+matrix_and_array028.e	Int_vector	{2, 3}
+matrix_and_array029.e	Int_vector	{2, 3}
+matrix_and_array030.e	Int_vector	{3, 2}
+matrix_and_array031.e	Int_vector	{3, 2}
+matrix_and_array032.e	Int_vector	{2, 3, 4}
+matrix_and_array033.e	Int_vector	{2, 3, 4, 2}
+matrix_and_array034.e	Int_vector	{1, 1}
+matrix_and_array035.e	Int_vector	{2, 3}
+matrix_and_array036.e	Int_vector	{2, 3}
+matrix_and_array037.e	Int_vector	{3, 2}
+matrix_and_array038.e	Int_vector	{3, 2}
+matrix_and_array039.e	Int_vector	{2, 3, 4}
+matrix_and_array040.e	Int_vector	{2, 3, 4, 2}
+matrix_and_array059.e	Int_vector	{3}
+matrix_and_array060.e	Int_vector	{3}
+matrix_and_array061.e	Int_vector	{3}
+matrix_and_array062.e	Int_vector	{3}
+matrix_and_array063.e	Int_vector	{1, 2, 3, 4, 5, 6}
+matrix_and_array064.e	Int_vector	{1, 2, 3, 4, 5, 6}
+matrix_and_array065.e	Int_vector	{1, 2, 3, 4, 5, 6}
+matrix_and_array066.e	Int_vector	{1, 3, 5, 2, 4, 6}
+matrix_and_array067.e	Int_vector	{1, 4, 2, 5, 3, 6}
+matrix_and_array073.e	Float_vector	{3}
+matrix_and_array074.e	Float_vector	{3}
+matrix_and_array075.e	Float_vector	{3}
+matrix_and_array076.e	Float_vector	{3}
+matrix_and_array077.e	Float_vector	{1, 2, 3, 4, 5, 6}
+matrix_and_array078.e	Float_vector	{1, 2, 3, 4, 5, 6}
+matrix_and_array079.e	Float_vector	{1, 2, 3, 4, 5, 6}
+matrix_and_array080.e	Float_vector	{1, 3, 5, 2, 4, 6}
+matrix_and_array081.e	Float_vector	{1, 4, 2, 5, 3, 6}
+matrix_and_array108.e	Int_vector	{1}
+matrix_and_array109.e	Int_vector	{3}
+matrix_and_array110.e	Int_vector	{3}
+matrix_and_array111.e	Int_vector	{2}
+matrix_and_array112.e	Int_vector	{2}
+matrix_and_array113.e	Int_vector	{3}
+matrix_and_array114.e	Int_vector	{3}
+matrix_and_array115.e	Int_vector	{1}
+matrix_and_array116.e	Int_vector	{3}
+matrix_and_array117.e	Int_vector	{3}
+matrix_and_array118.e	Int_vector	{2}
+matrix_and_array119.e	Int_vector	{2}
+matrix_and_array120.e	Int_vector	{3}
+matrix_and_array121.e	Int_vector	{3}
+matrix_and_array131.e	Int_vector	{1}
+matrix_and_array132.e	Int_vector	{2}
+matrix_and_array133.e	Int_vector	{2}
+matrix_and_array134.e	Int_vector	{3}
+matrix_and_array135.e	Int_vector	{3}
+matrix_and_array136.e	Int_vector	{2}
+matrix_and_array137.e	Int_vector	{2}
+matrix_and_array138.e	Int_vector	{1}
+matrix_and_array139.e	Int_vector	{2}
+matrix_and_array140.e	Int_vector	{2}
+matrix_and_array141.e	Int_vector	{3}
+matrix_and_array142.e	Int_vector	{3}
+matrix_and_array143.e	Int_vector	{2}
+matrix_and_array144.e	Int_vector	{2}
+color_manipulation004.e	String_vector	{"#80FFFF"}
+color_manipulation005.e	String_vector	{"#80FFFF", "#FF80FF"}
+color_manipulation006.e	String_vector	{"#80FFFF", "#FFFFFF", "#FF80FF"}
+color_manipulation007.e	String_vector	{"#80FFFF", "#D4FFFF", "#FFD5FF", "#FF80FF"}
+color_manipulation008.e	String_vector	{"#80FFFF", "#AAFFFF", "#D4FFFF", "#FFFFFF", "#FFD5FF", "#FFAAFF", "#FF80FF"}
+color_manipulation012.e	String_vector	{"#FF0000"}
+color_manipulation013.e	String_vector	{"#FF0000", "#FFFF00"}
+color_manipulation014.e	String_vector	{"#FF0000", "#FF8000", "#FFFF00"}
+color_manipulation015.e	String_vector	{"#FF0000", "#FF8000", "#FFFF00", "#FFFF80"}
+color_manipulation016.e	String_vector	{"#FF0000", "#FF3300", "#FF6600", "#FF9900", "#FFCC00", "#FFFF00", "#FFFF40", "#FFFFBF"}
+color_manipulation020.e	String_vector	{"#F2F2F2"}
+color_manipulation021.e	String_vector	{"#00A600", "#F2F2F2"}
+color_manipulation022.e	String_vector	{"#00A600", "#ECB176", "#F2F2F2"}
+color_manipulation023.e	String_vector	{"#00A600", "#E6E600", "#ECB176", "#F2F2F2"}
+color_manipulation024.e	String_vector	{"#00A600", "#3EBB00", "#8BD000", "#E6E600", "#E9BD3A", "#ECB176", "#EFC2B3", "#F2F2F2"}
+color_manipulation028.e	String_vector	{"#FF0000"}
+color_manipulation029.e	String_vector	{"#FF0000", "#00FFFF"}
+color_manipulation030.e	String_vector	{"#FF0000", "#00FF00", "#0000FF"}
+color_manipulation031.e	String_vector	{"#FF0000", "#80FF00", "#00FFFF", "#8000FF"}
+color_manipulation032.e	String_vector	{"#FF0000", "#FF8000", "#FFFF00", "#80FF00", "#00FF00", "#00FF80", "#00FFFF", "#0080FF", "#0000FF", "#8000FF", "#FF00FF", "#FF0080"}
+color_manipulation033.e	String_vector	{"#FF8080", "#FFFF80", "#80FF80", "#80FFFF", "#8080FF", "#FF80FF"}
+color_manipulation034.e	String_vector	{"#800000", "#808000", "#008000", "#008080", "#000080", "#800080"}
+color_manipulation035.e	String_vector	{"#804040", "#808040", "#408040", "#408080", "#404080", "#804080"}
+color_manipulation036.e	String_vector	{"#FFFF00", "#00FF00", "#00FFFF", "#0000FF"}
+color_manipulation037.e	String_vector	{"#FFFF00", "#FF0000", "#FF00FF", "#0000FF"}
+color_manipulation038.e	String_vector	{"#0000FF", "#FF00FF", "#FF0000", "#FFFF00"}
+color_manipulation039.e	String_vector	{"#0000FF", "#00FFFF", "#00FF00", "#FFFF00"}
+miscellaneous070.e	Float_vector	{1, 4, 9, 16, 25}
+miscellaneous071.e	Int_vector	{1, 2, 6, 24, 120}
+miscellaneous072.e	String_vector	{"1", "2", "2", "3", "3", "3"}
+miscellaneous073.e	String_vector	{"1", "22", "333", "4444", "55555"}
+miscellaneous074.e	Int_vector	{1, 3, 5, 7, 9}
 miscellaneous075.e	Int	5
+miscellaneous076.e	Int_vector	{1, 2, 3, 4, 5}
 miscellaneous077.e	Float	16.0
 miscellaneous084.e	Int	2
 miscellaneous159.e	Int	3
@@ -610,6 +1287,7 @@ miscellaneous290.e	String	"10"
 miscellaneous292.e	String	"foo"
 miscellaneous293.e	String	"11"
 miscellaneous294.e	String	"3"
+miscellaneous295.e	String_vector	{"foo", "bar", "baz"}
 miscellaneous296.e	Int	3
 methods008.e	Int	5
 methods009.e	Int	5
@@ -619,7 +1297,10 @@ user-defined_functions001.e	Int	6
 user-defined_functions002.e	Float	6.0
 user-defined_functions003.e	Int	6
 user-defined_functions004.e	Float	6.0
+user-defined_functions005.e	Int_vector	{6, 7, 8}
+user-defined_functions006.e	Float_vector	{6.0, 7.0, 8.0}
 user-defined_functions011.e	String	"foo,bar"
+user-defined_functions012.e	String_vector	{"foo,bar", "foo,baz"}
 user-defined_functions013.e	Int	6
 user-defined_functions014.e	Int	120
 user-defined_functions015.e	Int	3628800
